@@ -20,14 +20,22 @@ class Vertice {
         const distanciaY = this.#y - vertice2.getY();
         return Math.sqrt(distanciaX ** 2 + distanciaY ** 2)
     }
-    
+
     move(novoX, novoY){
         this.#x = novoX
         this.#y = novoY
     }
+
+    equals(vertice2){
+        if(this.#x === vertice2.#x && this.#y === vertice2.#y){
+            return "sim"
+        }else{
+            return "nao"
+        }
+    }
 }
 
-const vertice1 = new Vertice(43, 50)
+const vertice1 = new Vertice(65, 70)
 const vertice2 = new Vertice(65, 70)
 
 // vertice1.move(50, 50)
@@ -40,5 +48,8 @@ Y: ${vertice2.getY()}
 console.log(`distancia entre vetores
 ${vertice1.distancia(vertice2)}
 ${vertice2.distancia(vertice1)}
+`)
 
+console.log(`os vetores sao iguais?
+${vertice1.equals(vertice2)}
 `)
