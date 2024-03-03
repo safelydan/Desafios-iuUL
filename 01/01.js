@@ -15,18 +15,30 @@ class Vertice {
         return this.#y
     }
 
+    distancia(vertice2){
+        const distanciaX = this.#x - vertice2.getX();
+        const distanciaY = this.#y - vertice2.getY();
+        return Math.sqrt(distanciaX ** 2 + distanciaY ** 2)
+    }
+    
     move(novoX, novoY){
         this.#x = novoX
         this.#y = novoY
     }
 }
 
-const vertice1 = new Vertice(3, 4)
-const vertice2 = new Vertice(2, 3)
+const vertice1 = new Vertice(43, 50)
+const vertice2 = new Vertice(65, 70)
 
-vertice1.move(50, 3)
+// vertice1.move(50, 50)
 
 console.log(`log 
 X: ${vertice1.getX()}
 Y: ${vertice2.getY()}
+`)
+
+console.log(`distancia entre vetores
+${vertice1.distancia(vertice2)}
+${vertice2.distancia(vertice1)}
+
 `)
