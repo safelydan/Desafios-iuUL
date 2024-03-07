@@ -27,7 +27,7 @@ class Vertice {
     }
 
     equals(vertice2){
-        if(this.#x === vertice2.#x && this.#y === vertice2.#y){
+        if(this.#x === vertice2.getX() && this.#y === vertice2.gety()){
             return "sim"
         }else{
             return "nao"
