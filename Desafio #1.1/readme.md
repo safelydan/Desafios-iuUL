@@ -1,4 +1,4 @@
-# Desafio Back-end Node.js/Express - Questões
+# Desafio Back-end Node.js/Express
 
 Este repositório contém a solução para as questões propostas no Desafio Back-end Node.js/Express.
 
