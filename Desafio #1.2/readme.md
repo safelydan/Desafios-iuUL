@@ -2,6 +2,8 @@
 
 Este repositório contém a implementação de um sistema de gestão de consultório odontológico em Node.js/Express. O sistema oferece as seguintes funcionalidades:
 
+Para rodar utilize o arquivo main dentro da pasta view
+
 ## Funcionalidades
 
 1. **Inclusão de Pacientes no Cadastro:**
