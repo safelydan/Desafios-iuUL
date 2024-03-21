@@ -1,4 +1,4 @@
-# Sistema de Gestão de Consultório Odontológico em Node.js/Express
+# Sistema de Gestão de Consultório Odontológico em Javascript
 
 Este repositório contém a implementação de um sistema de gestão de consultório odontológico em Node.js/Express. O sistema oferece as seguintes funcionalidades:
 
