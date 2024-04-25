@@ -23,9 +23,9 @@ Execute o arquivo `sync.js` localizado na pasta `models`. Isso criará as tabela
 
 ## Execução da Aplicação
 
-Utilize o arquivo `menuPrincipal` localizado na pasta `view` para iniciar a aplicação.
+Utilize o arquivo `app` localizado no diretório raiz para iniciar a aplicação.
 ```bash
-   node menuPrincipal
+   node app
 ```
 
 ## Funcionalidades

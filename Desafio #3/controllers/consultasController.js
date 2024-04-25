@@ -157,7 +157,7 @@ export async function listarConsultas() {
     const consultas = await Consulta.findAll({ include: Paciente });
     console.log(
 `----------------------------------------------------------------------------------------- 
-  Data          H.Ini        H.Fim      Nome   
+  Data          H.Ini      H.Fim      Nome   
 ------------------------------------------------------------------------------------------`);
     consultas.forEach((consulta) => {
       const data = new Date(consulta.data);
@@ -165,7 +165,7 @@ export async function listarConsultas() {
       const nomePaciente = consulta.Paciente
         ? consulta.Paciente.nome
         : "Paciente não encontrado";
-console.log(`${dataFormatada}     ${consulta.horaInicial}     ${consulta.horaFinal}   ${nomePaciente}`
+console.log(`${dataFormatada}     ${consulta.horaInicial}   ${consulta.horaFinal}    ${nomePaciente}`
       );
     });
   } catch (error) {
