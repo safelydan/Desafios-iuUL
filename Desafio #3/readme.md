@@ -1,6 +1,6 @@
 # Sistema de Gestão de Consultório Odontológico em Javascript
 
-Este repositório contém a implementação de um sistema de gestão de consultório odontológico em Node.js/Express/Sequelize/PostgreSQL. 
+Este repositório contém a implementação de um sistema de gestão de consultório odontológico em Node.js/Express/Sequelize/PostgreSQL. O sistema oferece as seguintes funcionalidades:
 
 # Instruções para Configuração e Execução do Aplicativo
 
@@ -27,8 +27,6 @@ Utilize o arquivo `menuPrincipal` localizado na pasta `view` para iniciar a apli
 ```bash
    node menuPrincipal
 ```
-
-O sistema oferece as seguintes funcionalidades:
 
 ## Funcionalidades
 
